@@ -1,3 +1,4 @@
+ПЕРЕМЕННЫЕ И ТИПЫ ДАННЫХ
 Упражнение 1 
 #include <stdio.h>
 #include <locale.h>
@@ -33,3 +34,15 @@ return 0;
 }
 
 Упражнение 4 - см. Упражнение 3
+
+АРИФМЕТИЧЕСКИЕ ОПЕРАЦИИ
+Упражнение 1
+#include <stdio.h>
+int main(void)
+{
+int A = 10;
+int B = 5;
+int C = A+B;
+printf("A = %i\nB = %i\nA+B = %i",A,B,C);
+return 0;
+}
