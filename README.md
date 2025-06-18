@@ -31,3 +31,5 @@ double D = 3.14159;
 printf("Int = %i\nChar = %c\nFloat = %f\nDouble = %f",A,B,C,D);
 return 0;
 }
+
+Упражнение 4 - см. Упражнение 3
