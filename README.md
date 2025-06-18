@@ -106,3 +106,19 @@ float C = A/B;
 printf("A = %f\nB = %f\nA/B = %4.3f\n",A,B,C);
 return 0;
 }
+
+ПОРАЗРЯДНЫЕ ОПЕРАЦИИ
+#include <stdio.h>
+#include <locale.h>
+  
+int main(void)
+{
+char *locale = setlocale(LC_ALL, "");
+unsigned char A = 0b1101; 
+unsigned char bit_1 = (A >> 1) & 1;
+unsigned char bit_2 = (A >> 2) & 1;
+unsigned char B = bit_1 ^ bit_2;
+unsigned char C = A ^ (B << 1 | B << 2);
+printf("A = %d\nИтого: %d", A,C);
+return 0;
+}
