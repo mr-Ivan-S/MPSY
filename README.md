@@ -238,3 +238,60 @@ else printf("Max нет");
 printf("Max = %i\n",Max);
 return 0;
 }
+
+ЦИКЛЫ
+Упражнение 1
+#include <stdio.h>
+#include <locale.h>
+int main(void)
+{
+char *locale = setlocale(LC_ALL, "");
+int A=1, B=5;
+for ( ;A<=B; )
+{
+printf("A = %i, Hello Work\n", A);
+A++;
+}
+int C=5;
+while(C>0)
+{
+printf("С=%i, Hello Work №2\n", C);
+C--;
+}
+return 0;
+}
+
+Упражнение 2
+#include <stdio.h>
+#include <locale.h>
+int main(void)
+{
+char *locale = setlocale(LC_ALL, "");
+int A=11, B=20;
+if(A%2==0) A++;
+for ( ;A % 2==1 & A<B;)
+{
+printf("A = %i\n", A);
+A+=2;
+}
+return 0;
+}
+
+Упражнение 3
+#include <stdio.h>
+#include <locale.h>
+int main(void)
+{
+char *locale = setlocale(LC_ALL, "");
+int A = 7;
+for(int B = 0; B < A;  B++)
+{
+for(int C = 0; C < A; C++)
+{
+if(C==B || C == A-B-1) printf("*");
+else printf(" ");
+}
+printf("\n");
+}
+return 0;
+}
