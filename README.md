@@ -314,3 +314,17 @@ printf("\n");
 }
 return 0;
 }
+
+МАССИВЫ
+Упражнение 1
+#include <stdio.h>
+#include <locale.h>
+int main(void)
+{
+char *locale = setlocale(LC_ALL, "");
+char A[]={'А','Б','В','Г','\0'};
+printf("А: %s\n",A);
+char B[] = "АБВГ";
+printf("B: %s \n", B);
+return 0;
+}
