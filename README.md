@@ -420,3 +420,36 @@ printf("Ошибка\n");
 }
 return 0;
 }
+
+Упражнение 3 (!не нашел локализацию ввода имени в массив => символы при выводе)
+#include <stdio.h>
+#include <locale.h>
+int main(void)
+{
+char *locale = setlocale(LC_ALL, "");
+char A[20];
+printf("Введите ФИО (лат., формат-Donald Trump): ");
+scanf("%20[^\n]", A);
+int B;
+printf("Введите Возраст: ");
+scanf("%d",&B);
+printf("ФИО: %s \n",A);
+printf("Возраст: %d",B);
+return 0;
+}
+
+Упражнение 4
+#include <stdio.h>
+#include <locale.h>
+int main(void)
+{
+char *locale = setlocale(LC_ALL, "");
+float A,B;
+float S;
+printf("Введите стороны прямоугольника через пробел:");
+scanf("%f %f", &A, &B);
+S=A*B;
+printf("Площадь прямоугольника: %.3f",S);
+return 0;
+}
+
