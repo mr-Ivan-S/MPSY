@@ -16,6 +16,6 @@
 
 УКАЗАТЕЛИ: Ukaz_1, Ukaz_2, Ukaz_3, Ukaz_4, Ukaz_5, Ukaz_6, Ukaz_7
 
-ФУНКЦИИ: Functions_1, Functions_2
+ФУНКЦИИ: Functions_1, Functions_2, Functions_3,
 
 
