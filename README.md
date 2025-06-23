@@ -16,6 +16,6 @@
 
 УКАЗАТЕЛИ: Ukaz_1, Ukaz_2, Ukaz_3, Ukaz_4, Ukaz_5, Ukaz_6, Ukaz_7;
 
-ФУНКЦИИ: Functions_1, Functions_2, Functions_3, Functions_4, Functions_5, Functions_5 (объединено 2 упражнения), Functions_6 (factorial), Functions_7,
+ФУНКЦИИ: Functions_1, Functions_2, Functions_3, Functions_4, Functions_5, Functions_5 (объединено 2 упражнения), Functions_6 (factorial), Functions_7, Functions_8
 
 
