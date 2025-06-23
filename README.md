@@ -6,7 +6,7 @@
 ЦИКЛЫ: For_1, For_2, For_3, For_4;
 МАССИВЫ: Mass_1, Mass_2, Mass_3, Mass_4;
 ВВОД С КОНСОЛИ: Vvod_1, Vvod_2, Vvod_3, Vvod_4, Vvod_5;
-УКАЗАТЕЛИ: Ukaz_1, Ukaz_2
+УКАЗАТЕЛИ: Ukaz_1, Ukaz_2, Ukaz_3,
 
 
 
@@ -515,5 +515,19 @@ int *B=&A;
 printf("Исходная переменная = %d\n",*B);
 *B=20;
 printf("Переменная = %d\n",*B);
+return 0;
+}
+
+Упражнение 3
+#include <stdio.h>
+#include <locale.h>
+int main(void)
+{
+char *locale = setlocale(LC_ALL, "");
+const long A=10;
+const long *B=&A;
+char *const C = "Привет";
+printf("Константа по указателю = %ld\n",*B);
+printf("Надпись строки: %s\n", C);
 return 0;
 }
