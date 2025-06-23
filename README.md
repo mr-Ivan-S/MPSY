@@ -14,8 +14,8 @@
 
 ВВОД С КОНСОЛИ: Vvod_1, Vvod_2, Vvod_3, Vvod_4, Vvod_5;
 
-УКАЗАТЕЛИ: Ukaz_1, Ukaz_2, Ukaz_3, Ukaz_4, Ukaz_5, Ukaz_6, Ukaz_7
+УКАЗАТЕЛИ: Ukaz_1, Ukaz_2, Ukaz_3, Ukaz_4, Ukaz_5, Ukaz_6, Ukaz_7;
 
-ФУНКЦИИ: Functions_1, Functions_2, Functions_3, Functions_4, 
+ФУНКЦИИ: Functions_1, Functions_2, Functions_3, Functions_4, Functions_5
 
 
