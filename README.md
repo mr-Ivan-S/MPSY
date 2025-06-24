@@ -18,6 +18,6 @@
 
 ФУНКЦИИ: Functions_1, Functions_2, Functions_3, Functions_4, Functions_5, Functions_5 (объединено 2 упражнения), Functions_6 (factorial), Functions_7, Functions_8, Functions_9;
 
-ПРЕПРОЦЕССОР: Preprocess_1, 
+ПРЕПРОЦЕССОР: Preprocess_1, Preprocess_2;
 
 
