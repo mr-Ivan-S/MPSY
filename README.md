@@ -20,4 +20,4 @@
 
 ПРЕПРОЦЕССОР: Preprocess_1, Preprocess_2;
 
-СТРУКТУРЫ: Struct_1, Struct_2,
+СТРУКТУРЫ: Struct_1, Struct_2, Struct_3,
